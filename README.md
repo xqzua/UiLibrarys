@@ -32,7 +32,7 @@ end)
 ```
 Sliders
 ```lua
-local chs = sldrs:Slider("Slide me!", 0, 1000, 400, function(t)
+local chs = chs:Slider("Slide me!", 0, 1000, 400, function(t)
 print(t)
 end)
 ```
