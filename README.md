@@ -38,7 +38,7 @@ end)
 ```
 Drop Down
 ```lua
-local chs = drops:Dropdown("Pick me!",{"Option 1","Option 2","Option 3","Option 4","Option 5"}, function(bool)
+local chs = chs:Dropdown("Pick me!",{"Option 1","Option 2","Option 3","Option 4","Option 5"}, function(bool)
 print(bool)
 end)
 ```
@@ -55,6 +55,6 @@ chs:Label("This is just a label.")
 Keybind
 ```lua
 chs:Bind("Kill bind", Enum.KeyCode.RightShift, function()
-print("Killed everyone!")
+print("gone")
 end)
 ```
