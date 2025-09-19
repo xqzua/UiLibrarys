@@ -10,6 +10,10 @@ local win = DiscordLib:Window("discord library")
 ```
 Server/Tab
 ```lua
+local serv = win:Server("Preview", "")
+```
+Channel
+```lua
 local Tab = serv:Channel("Buttons")
 ```
 Button
