@@ -54,7 +54,7 @@ chs:Label("This is just a label.")
 ```
 Keybind
 ```lua
-bnds:Bind("Kill bind", Enum.KeyCode.RightShift, function()
+chs:Bind("Kill bind", Enum.KeyCode.RightShift, function()
 print("Killed everyone!")
 end)
 ```
